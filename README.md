@@ -15,5 +15,3 @@ Playing with microfrontend architecture. Would like to achieve SSR.
 # TODO list
 - try dockerizing the microfrontends and the host
 - get SSR working
-- solve sharing contracts between microfrontends and the host
-  - for typesafe use on the host

@@ -1,10 +1,3 @@
-import React from "react";
-
-// TODO: DRY - this is copy paste from EventRow
-interface EventRowProps {
-	initialCount?: number;
-}
-
-const EventRow: React.FC<EventRowProps>;
-
+import { EventRow } from "microfrontend-contracts";
+const EventRow: EventRow;
 export default EventRow;

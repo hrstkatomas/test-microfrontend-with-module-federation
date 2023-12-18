@@ -1,10 +1,7 @@
 import React from "react";
+import type { EventRow as EventRowType } from "microfrontend-contracts";
 
-interface EventRowProps {
-	initialCount?: number;
-}
-
-const EventRow = ({ initialCount = 0 }: EventRowProps) => {
+const EventRow: EventRowType = ({ initialCount = 0 }) => {
 	const [count, setCount] = React.useState(initialCount);
 
 	return (
